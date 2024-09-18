@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* list-style-type: none; */
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Outfit", system-ui;
+    color: #5f574e;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12.5rem 35rem;
+    background-color: #f3e6d8;
+}
+
+.card {
+    padding: 4rem;
+    border-radius: 2rem;
+    background-color: #ffffff;
+}
+
+.sec1 img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+h1 {
+    font-size: 4.35rem;
+    margin-top: 2.5rem;
+}
+
+h3 {
+    font-size: 3.1rem;
+    color: #854632;
+}
+
+h1, h3 {
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+}
+
+p {
+    font-size: 1.85rem;
+    margin-top: 2.5rem;
+}
+
+.sec2 {
+    padding: 3rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    background-color: #fff5fa;
+}
+
+h1 {
+    color: #000000;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+ul, ol {
+    padding-left: 2rem;
+}
+
+ul, li {
+    margin-top: 1rem;
+}
+
+li {
+    font-size: 1.85rem;
+}
+
+li::marker {
+    color: #854632;
+    font-weight: 700;
+}
+
+.sec3 {
+    padding: 4rem 0;
+}
+
+.sec4, .sec5 {
+    padding: 4rem 0;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.sec5 p {
+    font-size: 1.85rem;
+    padding-bottom: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 1.85rem;
+    width: 100%;
+}
+
+th {
+    font-weight: 400;
+}
+
+td {
+    font-weight: 600;
+    color: #854632;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr > th , tr > td {
+    padding: 1.6rem;
+    text-align: left;
+}
+
+span {
+    font-weight: 700;
+    color: #5f574e;
+}
+
+@media screen and (max-width: 416px) {
+    .container, .card {
+        padding: 0;
+    }
+
+    .sec1 img {
+        border-radius: 0;
+    }
+
+    .sec1 h1, .sec1 p, .sec2, .sec3, .sec4, .sec5 {
+        padding: 0 3rem;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    .sec2 {
+        margin: 3rem 4rem;
+        padding: 3rem;
+    }
+
+    .sec3, .sec4, .sec5 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+}
